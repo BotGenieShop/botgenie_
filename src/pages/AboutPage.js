@@ -33,7 +33,7 @@ const AboutPage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-purple-50 to-pink-50 py-40">
+      <section className="bg-gradient-to-br from-purple-50 to-purple-100 py-40">
         <div className="container mx-auto px-6 lg:px-20 text-center">
           <motion.h1
             initial={{ opacity: 0, y: -50 }}

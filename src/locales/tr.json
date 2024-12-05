@@ -109,5 +109,36 @@
         "role": "Kurucu ve CEO"
       }
     }
+  },
+  "servicespage": {
+    "title": "Hizmetlerimiz",
+    "description": "İşletmenizin ihtiyaçlarına özel bot çözümlerimizi keşfedin.",
+    "ourServices": "Neler Sunuyoruz",
+    "ourServicesDescription": "Kapsamlı hizmetlerimizle işletmenizin dijital dünyada başarıya ulaşmasını sağlıyoruz.",
+    "cards": {
+      "readyBots": {
+        "title": "Hazır Botlar",
+        "description": "Telegram, WhatsApp, Instagram ve Discord için önceden hazırlanmış botlar."
+      },
+      "customBots": {
+        "title": "Özel Bot Geliştirme",
+        "description": "İş süreçlerinizi otomatikleştirmek için size özel botlar geliştiriyoruz."
+      },
+      "integration": {
+        "title": "Bot Entegrasyonu",
+        "description": "İşlerinizi kolaylaştırmak için birden fazla platformda sorunsuz entegrasyon."
+      },
+      "globalSupport": {
+        "title": "Global Destek",
+        "description": "Dünya genelinde botlarınızın sorunsuz çalışmasını sağlamak için 7/24 destek."
+      }
+    },
+    "globalReachTitle": "Global Etki",
+    "globalReachDescription": "Çözümlerimiz dünya çapında işletmeleri dönüştürdü.",
+    "stats": {
+      "clients": "Hizmet Verilen Müşteri Sayısı",
+      "performance": "Performans Artışı",
+      "retention": "Müşteri Devam Oranı"
+    }
   }
 }

@@ -109,5 +109,36 @@
         "role": "Founder ve CEO"
       }
     }
+  },
+  "servicespage": {
+    "title": "Our Services",
+    "description": "Explore our range of bot solutions tailored for your business needs.",
+    "ourServices": "What We Offer",
+    "ourServicesDescription": "Our comprehensive services ensure your business thrives in the digital age.",
+    "cards": {
+      "readyBots": {
+        "title": "Ready-to-Use Bots",
+        "description": "Pre-built bots for Telegram, WhatsApp, Instagram, and Discord."
+      },
+      "customBots": {
+        "title": "Custom Bot Development",
+        "description": "Tailored bots designed to automate your unique business workflows."
+      },
+      "integration": {
+        "title": "Bot Integration",
+        "description": "Seamless integration across multiple platforms to simplify your operations."
+      },
+      "globalSupport": {
+        "title": "Global Support",
+        "description": "24/7 assistance to ensure your bots function smoothly worldwide."
+      }
+    },
+    "globalReachTitle": "Global Impact",
+    "globalReachDescription": "Our solutions have transformed businesses around the world.",
+    "stats": {
+      "clients": "Clients Served",
+      "performance": "Performance Boost",
+      "retention": "Retention Rate"
+    }
   }
 }
