@@ -105,16 +105,19 @@ const Services = () => {
             </p>
             <div className="relative mt-10">
               <img src={map} alt="Global Map" className="w-full rounded-lg" />
-              <div className="absolute top-20 left-1/4">
+              {/* StatCard 1 */}
+              <div className="absolute top-20 left-1/4 sm:left-1/6 md:left-1/6 lg:left-1/4 xl:left-1/4">
                 <StatCard value="2K+" label={t("servicespage.stats.clients")} />
               </div>
-              <div className="absolute top-32 right-1/4">
+              {/* StatCard 2 */}
+              <div className="absolute top-32 right-1/4 sm:right-1/6 md:right-1/6 lg:right-1/4 xl:right-1/4">
                 <StatCard
                   value="25%"
                   label={t("servicespage.stats.performance")}
                 />
               </div>
-              <div className="absolute bottom-20 left-1/3">
+              {/* StatCard 3 */}
+              <div className="absolute bottom-20 left-1/3 sm:left-1/4 md:left-1/4 lg:left-1/3 xl:left-1/3">
                 <StatCard
                   value="70%"
                   label={t("servicespage.stats.retention")}
@@ -146,9 +149,13 @@ const ServiceCard = ({ icon, title, details }) => {
 // Stat Card Component
 const StatCard = ({ value, label }) => {
   return (
-    <div className="p-6 bg-white rounded-lg shadow-lg">
-      <h3 className="text-3xl font-bold text-purple-600">{value}</h3>
-      <p className="mt-2 text-gray-600">{label}</p>
+    <div className="w-10 sm:w-12 md:w-14 lg:w-16 xl:w-20 p-1 sm:p-1 bg-white rounded-lg shadow-lg">
+      <h3 className="text-xs sm:text-xs md:text-sm font-bold text-purple-600">
+        {value}
+      </h3>
+      <p className="mt-1 text-xs sm:text-xs md:text-sm text-gray-600">
+        {label}
+      </p>
     </div>
   );
 };

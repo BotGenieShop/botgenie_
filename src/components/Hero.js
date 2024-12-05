@@ -7,7 +7,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="font-poppins bg-gradient-to-br from-blue-900 via-purple-700 to-pink-600 text-white overflow-hidden relative min-h-[100vh] pt-36">
+    <div className="font-poppins bg-gradient-to-br from-blue-900 via-purple-700 to-pink-600 text-white overflow-hidden relative min-h-[100vh] pt-30">
       <div className="container mx-auto px-6 lg:px-16 py-20 flex flex-col justify-center min-h-full">
         <div className="flex flex-wrap items-center justify-between">
           {/* Sol Kısım: Metin ve Butonlar */}

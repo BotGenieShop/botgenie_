@@ -136,12 +136,12 @@ const Contact = () => {
                   className="w-full px-4 lg:w-1/2 xl:w-6/12"
                 >
                   <div className="max-w-[570px]">
-                    <h3 className="mb-6 text-[32px] font-bold leading-tight text-purple-500 sm:text-[40px] xl:text-[36px]">
+                    <h3 className="mb-6 text-[32px] font-bold leading-tight text-purple-500 pl-4 sm:text-[40px] xl:text-[36px]">
                       {t("message_title")} {/* Dinamik dil çevirisi */}
                     </h3>
                     <form action="mailto:info@botgenie.com" method="post">
                       <div className="mb-6 flex flex-wrap">
-                        <div className="w-full md:w-1/2 pr-4">
+                        <div className="w-full md:w-1/2 pr-4 pl-4">
                           <label className="mb-3 block text-sm font-medium text-gray-700">
                             {t("name_label")} {/* Dinamik dil çevirisi */}
                           </label>
@@ -152,7 +152,7 @@ const Contact = () => {
                             className="w-full rounded-md border border-gray-200 py-3 px-6 text-base font-medium text-dark outline-none transition duration-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-500"
                           />
                         </div>
-                        <div className="w-full md:w-1/2 pl-4">
+                        <div className="w-full md:w-1/2 pr-4 pl-4">
                           <label className="mb-3 block text-sm font-medium text-gray-700">
                             {t("email_label")} {/* Dinamik dil çevirisi */}
                           </label>
@@ -164,7 +164,7 @@ const Contact = () => {
                           />
                         </div>
                       </div>
-                      <div className="mb-6">
+                      <div className="mb-6 pl-4">
                         <label className="mb-3 block text-sm font-medium text-gray-700">
                           {t("message_label")} {/* Dinamik dil çevirisi */}
                         </label>
@@ -175,12 +175,16 @@ const Contact = () => {
                           className="w-full rounded-md border border-gray-200 py-3 px-6 text-base font-medium text-dark outline-none transition duration-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-500"
                         />
                       </div>
-                      <button
-                        type="submit"
-                        className="inline-flex rounded-lg bg-purple-500 px-8 py-3 text-center text-base font-semibold text-white outline-none transition duration-300 hover:bg-purple-600 focus:bg-purple-600"
-                      >
-                        {t("send_button")} {/* Dinamik dil çevirisi */}
-                      </button>
+
+                      {/* Buton Sola Kaydırıldı */}
+                      <div className="flex justify-start pl-4">
+                        <button
+                          type="submit"
+                          className="inline-flex rounded-lg bg-purple-500 px-8 py-3 text-center text-base font-semibold text-white outline-none transition duration-300 hover:bg-purple-600 focus:bg-purple-600"
+                        >
+                          {t("send_button")} {/* Dinamik dil çevirisi */}
+                        </button>
+                      </div>
                     </form>
                   </div>
                 </motion.div>
