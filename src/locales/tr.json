@@ -81,5 +81,33 @@
   "signupButton": "Kayıt Ol",
   "alreadyHaveAccount": "Zaten hesabınız var mı?",
   "loginLink": "Giriş Yap",
-  "passwordMismatch": "Şifreler uyuşmuyor"
+  "passwordMismatch": "Şifreler uyuşmuyor",
+  "aboutpage": {
+    "title": "Hakkımızda",
+    "description": "Botgenie ile işletmeniz için yenilikçi çözümler sunuyoruz.",
+    "imagePlaceholder": "Bu alanda görsel olacak",
+    "whyChooseUs": "Neden Bizi Seçmelisiniz?",
+    "whyChooseUsDescription": "Botgenie, işletmenizi büyütmek için en iyi araçları sunar.",
+    "features": {
+      "easyIntegration": "Kolay Entegrasyon",
+      "easyIntegrationDescription": "Platformumuz diğer sistemlerle sorunsuz şekilde entegre olur.",
+      "smartAutomation": "Akıllı Otomasyon",
+      "smartAutomationDescription": "İşlerinizi kolaylaştırmak için otomasyon çözümleri.",
+      "customerSupport": "7/24 Müşteri Desteği",
+      "customerSupportDescription": "Her zaman yanınızdayız."
+    },
+    "teamTitle": "Ekibimiz",
+    "teamDescription": "İşini tutkuyla yapan uzmanlardan oluşan bir ekibiz.",
+    "team": {
+      "imagePlaceholder": "Ekip üyesi görseli",
+      "member1": {
+        "name": "Nazlı Nur ESMERAY",
+        "role": "Kurucu ve CEO"
+      },
+      "member2": {
+        "name": "Muhammed Kayan",
+        "role": "Kurucu ve CEO"
+      }
+    }
+  }
 }

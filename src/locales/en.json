@@ -81,5 +81,33 @@
   "signupButton": "Sign Up",
   "alreadyHaveAccount": "Already have an account?",
   "loginLink": "Login",
-  "passwordMismatch": "Passwords do not match"
+  "passwordMismatch": "Passwords do not match",
+  "aboutpage": {
+    "title": "About Us",
+    "description": "At Botgenie, we provide innovative solutions for your business.",
+    "imagePlaceholder": "Placeholder for an image",
+    "whyChooseUs": "Why Choose Us?",
+    "whyChooseUsDescription": "Botgenie offers the best tools to grow your business.",
+    "features": {
+      "easyIntegration": "Easy Integration",
+      "easyIntegrationDescription": "Our platform integrates seamlessly with other systems.",
+      "smartAutomation": "Smart Automation",
+      "smartAutomationDescription": "Automation solutions to simplify your operations.",
+      "customerSupport": "24/7 Customer Support",
+      "customerSupportDescription": "We are always here for you."
+    },
+    "teamTitle": "Our Team",
+    "teamDescription": "We are a team of passionate and dedicated professionals.",
+    "team": {
+      "imagePlaceholder": "Team member photo",
+      "member1": {
+        "name": "Nazlı Nur ESMERAY",
+        "role": "Founder ve CEO"
+      },
+      "member2": {
+        "name": "Muhammed Kayan",
+        "role": "Founder ve CEO"
+      }
+    }
+  }
 }
