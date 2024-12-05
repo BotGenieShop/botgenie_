@@ -140,5 +140,15 @@
       "performance": "Performans Artışı",
       "retention": "Müşteri Devam Oranı"
     }
-  }
+  },
+  "contact_title": "İLETİŞİME GEÇİN",
+  "location_title": "Lokasyonumuz",
+  "phone_title": "Telefon Numarası",
+  "message_title": "Mesajınızı Bırakın",
+  "name_label": "Adınız",
+  "email_label": "E-posta Adresiniz",
+  "message_label": "Mesajınız",
+  "send_button": "Mesaj Gönder",
+  "message_intro": "Herhangi bir sorunuz veya endişeniz için bizimle iletişime geçebilirsiniz. Yardımcı olmak için buradayız!",
+  "success_message": "Mesajınız için teşekkür ederiz! En kısa zamanda size geri dönüş yapacağız."
 }
